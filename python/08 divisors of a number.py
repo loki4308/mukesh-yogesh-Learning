@@ -2,7 +2,7 @@
 
 def divisors_of_num(n):
     divisors = []
-    for i in range(1,(n // 2)+1,1):
+    for i in range(1,(n // 2)+1):
         if n % i == 0:
             divisors.append(i)
     divisors.append(n)
